@@ -1,4 +1,4 @@
-import './App.css';
+import './index.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./comps/NavBar";
 
@@ -8,8 +8,8 @@ function App() {
     <div className="App">
       <NavBar />
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/About" element={<About />} />
+        {/*<Route exact path="/" element={<Home />} /> 
+        <Route path="/About" element={<About />} /> */}
       </Routes>
     </div>
     </Router>
