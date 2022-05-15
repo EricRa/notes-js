@@ -8,8 +8,9 @@ function App() {
     <div className="App">
       <NavBar />
       <Routes>
-        {/*<Route exact path="/" element={<Home />} /> 
-        <Route path="/About" element={<About />} /> */}
+        <Route exact path="/" element={<Home />} /> 
+        <Route path="/About" element={<About />} />
+        <Route path="/Contact" element={<Contact />} />
       </Routes>
     </div>
     </Router>
