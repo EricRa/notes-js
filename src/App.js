@@ -1,6 +1,10 @@
 import './index.css';
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./comps/NavBar";
+import Home from "./comps/Home";
+import About from "./comps/About";
+import Contact from "./comps/Contact"
 
 function App() {
   return (
