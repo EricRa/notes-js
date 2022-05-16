@@ -5,12 +5,14 @@ import NavBar from "./comps/NavBar";
 import Home from "./comps/Home";
 import About from "./comps/About";
 import Contact from "./comps/Contact"
+import MenuNav from './comps/MenuNav';
 
 function App() {
   return (
     <Router>
     <div className="App">
       <NavBar />
+      <MenuNav />
       <Routes>
         <Route exact path="/" element={<Home />} /> 
         <Route path="/About" element={<About />} />

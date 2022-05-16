@@ -1,10 +1,7 @@
 html {
     font-size: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-body {
-    max-width: 900px;
+    overflow-x: hidden;
 }
 
 p {
@@ -37,4 +34,21 @@ h4 {
     align-items: center;
     justify-content: center;
     justify-items: center;
+    background-color: rgb(0, 0, 40);
+    color: white;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.nav-item {
+    color: white;
+}
+
+.menunav-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: left;
+    justify-content: left;
+    justify-items: center;
+    background-color: rgb(67, 67, 67);
 }
