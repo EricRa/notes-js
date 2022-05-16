@@ -1,9 +1,14 @@
 import React from "react";
 
 const Contact = () => {
-    <div className="contact-container">
-        
-    </div>
+
+    return (
+        <div className="contact-container">
+            <p>
+                E-mail: eric @ ericra dot com
+            </p>
+        </div>
+    )
 }
 
 export default Contact;
