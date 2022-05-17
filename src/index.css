@@ -30,6 +30,11 @@ h4 {
     font-size: 1.7rem;
 }
 
+label {
+    font-size: 1.5rem;
+    display: block;
+    margin-bottom: 1vh;
+}
 .nav-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -53,7 +58,8 @@ h4 {
     align-items: left;
     justify-content: left;
     justify-items: center;
-    background-color: rgb(192, 192, 192);
+    background-color: rgb(139, 138, 138);
+    margin-bottom: 3vh;
 }
 
 .about-container {
