@@ -4,20 +4,25 @@ const Home = () => {
 
     let noteNumber = 1;
 
-    const handleSubmit = () => {
 
-    }
 
     return (
         <div className="home-container">
-            <form id="noteForm" onSubmit={handleSubmit} ></form>
+            <form id="noteForm"></form>
                 <label htmlFor="noteTextArea">
                     Note { noteNumber }
                 </label>
                 <textarea
-                    name="noteText"
-                    >
-                    
+                    name="Note Text"
+                    className="note-text-area"
+                    type="text"
+                    id="noteText"
+                    autoFocus
+                    cols="60"
+                    rows="20"
+                    placeholder="Start your note here!"
+                    spellCheck="true"
+                >
                 </textarea>
 
         </div>
